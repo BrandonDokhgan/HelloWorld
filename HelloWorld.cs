@@ -4,7 +4,12 @@ public class HelloWorld
 
     public HelloWorld()
     {
-        
+        Greeting = "Hello World!";
+    }
+
+    public string PrintGreeting()
+    {
+        return Greeting;
     }
 
 }
