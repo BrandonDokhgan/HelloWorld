@@ -1,6 +1,7 @@
 public class HelloWorld
 {
-    public string Greeting {get;set;}
+    public string Blah { get; private set; } = "blah";
+    public string Greeting { get; set; }
 
     public HelloWorld()
     {
